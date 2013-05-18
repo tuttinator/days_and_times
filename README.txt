@@ -1,5 +1,21 @@
 = days_and_times
 
+== tuttinator fork
+
+=== Work in Progress
+
+Key issue:
+
+I want to create a version of this gem that is compatible with ActiveSupport.
+
+Time mathematics is very useful, however a range of other expectations are made on ActiveSupport's implementation.
+
+As a first approach, I've just appended an underscore to the methods in the numeric class
+
+== Original Readme:
+
+
+
 * Homepage: http://dcparker.github.com/days_and_times
 * Code: http://github.com/dcparker/days_and_times
 * Download: http://gemcutter.org/gems/days_and_times

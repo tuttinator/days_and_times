@@ -1,38 +1,38 @@
 require 'days_and_times/duration'
 class Numeric
-  def weeks
+  def weeks_
     self == 1 ? Week.new : Weeks.new(self)
   end
-  def week
-    self.weeks
+  def week_
+    self.weeks_
   end
 
-  def days
+  def days_
     self == 1 ? Day.new : Days.new(self)
   end
-  def day
-    self.days
+  def day_
+    self.days_
   end
 
-  def hours
+  def hours_
     self == 1 ? Hour.new : Hours.new(self)
   end
-  def hour
+  def hour_
     self.hours
   end
 
-  def minutes
+  def minutes_
     self == 1 ? Minute.new : Minutes.new(self)
   end
-  def minute
-    self.minutes
+  def minute_
+    self.minutes_
   end
 
-  def seconds
+  def seconds_
     self == 1 ? Second.new : Seconds.new(self)
   end
-  def second
-    self.seconds
+  def second_
+    self.seconds_
   end
 
   def is_multiple_of?(num)
