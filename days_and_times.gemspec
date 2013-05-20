@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = "Natural language method chaining for Time, Durations and the like."
   s.email = ["gems@behindlogic.com"]
   s.extra_rdoc_files = ["History.txt", "License.txt", "Manifest.txt", "README.txt"]
-  s.files = ["History.txt", "License.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/days_and_times.rb", "lib/days_and_times/duration.rb", "lib/days_and_times/numeric.rb", "lib/days_and_times/object.rb", "lib/days_and_times/time.rb", "spec/days_and_times/numeric_spec.rb", "spec/days_and_times_spec.rb", "spec/spec_helper.rb", ".gemtest"]
+  s.files = ["History.txt", "License.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/days_and_times.rb", "lib/days_and_times/duration.rb", "lib/days_and_times/numeric.rb", "lib/days_and_times/object.rb", "lib/days_and_times/time.rb", "spec/days_and_times/numeric_spec.rb", "spec/days_and_times_spec.rb", "spec/spec_helper.rb"]
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "days_and_times"
